@@ -53,14 +53,10 @@
   define('BRAINTREE_PRIVATE', 'dbaead385c88dad288ea34951e8c9091');
 
   //Mpesa details
-  define('CONSUMER_KEY','vHWiA32og7EqBalZJPmmbaXV25WGnYiE');
-  define('CONSUMER_SECRET','fhcaEfW8N3ohtGTA');
+  define('CONSUMER_KEY','xxxxxxxxxxxxxxxxxxxxxxxxxx');
+  define('CONSUMER_SECRET','xxxxxxxxxxxxxxxxxxxxxxxxx');
 
   //PepaPal
-  //define('PESAPAL_ENV', 'sandbox');
-  //define('PESAPAL_CONSUMER_KEY','XS60XmFS1XmVJAUyCiYls36poR4lZUtS');
-  //define('PESAPAL_CONSUMER_SECRET','d2NgfNx/Qebw48whYGJdBUfWmHE=');
-
-  define('PESAPAL_ENV', 'live');
-  define('PESAPAL_CONSUMER_KEY','GBb/lOy9Ri5/A0Ll4kDvlRJgXRPjyW6y');
-  define('PESAPAL_CONSUMER_SECRET','8StXSR4/Dmj2tCQsM8Jyk8Op1Xo=');
+  define('PESAPAL_ENV', 'sandbox');
+  define('PESAPAL_CONSUMER_KEY','XS60XmFS1XmVJAUyCiYls36poR4lZUtS');
+  define('PESAPAL_CONSUMER_SECRET','d2NgfNx/Qebw48whYGJdBUfWmHE=');

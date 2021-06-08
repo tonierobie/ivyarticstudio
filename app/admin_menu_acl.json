@@ -1,0 +1,13 @@
+{
+  "Dashboard" : "admindashboard/index",
+  "Products" : {
+    "View Products" : "adminproducts/index",
+    "Add Product" : "adminproducts/edit/new",
+    "separator" : " ",
+    "Options" : "adminproducts/options",
+    "Product Approval" : "adminproducts/approval"
+  },
+  "Art Types" : "adminbrands/index",
+  "Pesapal" : "pesapal/index",
+  "Users" : "adminusers/index"
+}

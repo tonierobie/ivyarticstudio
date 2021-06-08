@@ -1,0 +1,9 @@
+{
+  "Login" : "register/login",
+  "Register" : "register/register",
+  "Profile" : "register/index",
+  "Artist" : "adminproducts/index",
+  "%USERNAME%" : {
+    "Logout" : "register/logout"
+  }
+}

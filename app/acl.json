@@ -1,0 +1,32 @@
+{
+  "Guest" : {
+    "denied" : {},
+    "Home" : ["*"],
+    "Products" : ["*"],
+    "Cart" : ["*"],
+    "Register" : ["login", "register"],
+    "Restricted" : ["*"]
+  },
+  "LoggedIn" : {
+    "denied" : {
+      "Register" : ["login", "register"]
+    },
+    "Register" : ["logout"]
+  },
+  "SuperAdmin" : {
+    "denied" : {},
+    "Admindashboard" : ["*"],
+    "Adminproducts" : ["*"],
+    "Adminbrands" : ["*"],
+    "Adminusers" : ["*"],
+    "Register" : ["*"]
+  },
+  "Artist" : {
+    "denied" : {
+      "Adminproducts" : ["approval"]
+    },
+    "Admindashboard" : ["*"],
+    "Adminproducts" : ["*"],
+    "Register" : ["*"]
+    }
+}
